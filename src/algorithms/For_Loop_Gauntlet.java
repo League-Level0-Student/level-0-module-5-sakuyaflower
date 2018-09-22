@@ -40,13 +40,31 @@ public class For_Loop_Gauntlet {
 
 		for (int i = 0; i < 3; i++) {
 			for (int s = 0; s < 3; s++) {
-				System.out.println(s + " " + i);
+				System.out.println(i + " " + s);
 			}
 		}
 
-		// for(int i = 1; i < 9; i++) {
+		for (int i = 0; i < 9; i += 3) {
+			for (int t = 1; t <= 3; t++) {
 
-		// }
+				System.out.print(t + i);
+			}
+			System.out.println();
+		}
 
+		for (int i = 0; i < 100; i +=10) {
+			for (int t = 1; t < 11; t++) {
+System.out.print(t+i+" ");
+			}
+		System.out.println();
+		}
+
+for(int)
+	
+	
+	
+	
+	
+	
 	}
 }
