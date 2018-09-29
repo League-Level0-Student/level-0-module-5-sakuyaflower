@@ -1,5 +1,7 @@
 package algorithms;
 
+import java.util.concurrent.SynchronousQueue;
+
 import javax.swing.JOptionPane;
 
 public class For_Loop_Gauntlet {
@@ -59,8 +61,16 @@ System.out.print(t+i+" ");
 		System.out.println();
 		}
 
-for(int)
-	
+for(int i = 1; i < 7; i++) {
+	for(int t = 0; t < i; t++) {
+		System.out.print("*");
+	}
+System.out.println();
+}
+	for(int i = 0; i < 100; i++) {
+		System.out.println(100-i);
+		
+	}
 	
 	
 	
